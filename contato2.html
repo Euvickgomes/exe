@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contato</title>
+</head>
+<body>
+    <header>
+        <center>
+            <h1>Contatos</h1>
+        </center>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="biografia.html">Biografia</a></li>
+            <li><a href="galeria.html">Galeria</a></li>
+            <li><a href="discografia.html">Contato</a></li>
+        </ul>
+    </nav>
+    <hr>
+    <main>
+        <section>
+        <form method="post">
+            <fieldset>
+            <legend>Informações pessoais: </legend>
+            <label>Nome: </label>
+            <input type="text" name="nome" id="nome">
+            <br><br>
+            <label>Email: </label>
+            <input type="email" name="email" id="email">
+            <br><br>
+            <label>Senha: </label>
+            <input type="password" name="senha" id="senha">
+            <br><br>
+            <label>Telefone: </label>
+            <input type="tel" name="telefone" id="telefone">
+            <br><br>
+            <label>Idade: </label>
+            <input type="number" name="numero" id="numero">
+            <br><br>
+            <label>Data de aniversário</label>
+            <input type="date" name="data" id="data">
+            </fieldset>
+            <br><br>
+
+            <fieldset>
+                <legend>Preferências: </legend>
+                <label>Gênero Musical: </label>
+                <select name="genero musical" id="genero musical">
+                    <option value="Eletrônica">Eletrônica</option>
+                    <option value="Rock">Rock</option>
+                    <option value="Jazz">Jazz</option>
+                    <option value="Sertanejo">Sertanejo</option>
+                    <option value="Bossa Nova">Bossa Nova</option>
+                </select>
+                <br><br>
+                <label>Instrumentos Musicais: </label>
+                <br>
+                <input type="checkbox" name="vio" id="vio">Violão
+                <input type="checkbox" name="guitar" id="guitar">Guitarra
+                <input type="checkbox" name="tecl" id="tecl">Teclado
+                <input type="checkbox" name="contra" id="contra">Contrabaixo
+                <input type="checkbox" name="bat" id="bat">Bateria
+            </fieldset>
+            <br><br>
+            <fieldset>
+                <legend>Biografia: </legend>
+                <br>
+                <textarea name="" id="Biografia" cols="80" rows="10"></textarea>
+            </fieldset>
+            <br><br>
+            <fieldset>
+                <legend>Foto: </legend>
+                <input type="file" name="file" id="file">
+            </fieldset>
+            <br>
+            <hr>
+            <br>
+            <center>
+                <input type="submit" value="Enviar">
+            </center>
+        </form>
+    </section>
+    </main>
+    <br>
+    <hr>
+    <footer>
+        <center>
+            <br>
+            &copy; Formulário de envio.
+            <p>2024 - JÃO</p>
+        </center>
+    </footer>
+</body>
+</html>
